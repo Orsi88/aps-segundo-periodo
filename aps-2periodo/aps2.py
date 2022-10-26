@@ -7,7 +7,7 @@ from turtle import delay
 os.system('cls') or None
 
 # Caracteres que serão utilizados
-biblioteca = [ 'í','#', '*', 'Á', '(', 'a', 'É', 'o', 'p','5', '6', '7', '8', 'q', 'r', 's', 't', 'u', 'v', 'w', '°', '_', 'x', 'y', 'z', 'A', 'b', 'c', 'd', 'e', 'f', '.', '!', 'Ê', 'Î', 'Ô', 'ú', 'â', 'ê', 'î', 'ô', 'û', 'à', '@', '$', ')', '[', ']', '{', '}', '%', ':', '<', '>', '+', '=','g', 'h', 'i', 'j', 'Ó', 'Ú', 'k', 'l', 'm', 'n', 'B', 'C', 'D', 'Û', 'á', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'º', '-', 'P','Q', 'R', 'S', 'T', 'ã', 'õ', '&', 'Ã', 'Õ', 'U', ';', 'V','W','X', 'Y', 'Z', '0', '1', '2', '?', 'Í', 'Â', '3', '4', 'ó', '9', ' ', ',', 'é']
+biblioteca = [ 'í','#', '*', 'Á', '(', 'a', 'É', 'o', 'p','5', '6', '7', '8', 'q', 'r', 's', 't', 'u', 'v', 'w', '°', '_', 'x', 'y', 'z', 'A', 'b', '||', 'c', 'd', 'e', 'f', '.', '!', 'Ê', '|||||', 'Î', 'Ô', 'ú', 'â', 'ê', 'î', 'ô', 'û', 'à', '@', '$', ')', '[', ']', '{', '}', '%', ':', '<', '>', '+', '=','g', 'h', 'i', 'j','||||||', 'Ó', 'Ú', 'k', 'l', 'm', 'n', 'B', 'C', 'D', '|||', 'Û', 'á', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'º', '-', 'P','Q', 'R', 'S', 'T', 'ã', 'õ', '&', 'Ã', 'Õ', 'U', ';', 'V','W','X', 'Y', 'Z', '0', '1', '2', '?', 'Í', 'Â', '3', '4', 'ó', '9', ' ', ',', 'é']
 
 def criptografando():
     # Recebendo info
@@ -21,7 +21,7 @@ def criptografando():
     numeroItensBiblioteca = len(biblioteca)
 
     # Criando chave de criptografar
-    chave = 57
+    chave = 59
     mensagemCriptografada = ""
 
     # Criptografando
@@ -46,7 +46,7 @@ def descriptografando():
     numeroItensBiblioteca = len(biblioteca)
 
     # Criando chave de descriptografar
-    chave = 57
+    chave = 59
     mensagem = ""
 
     # Descriptografando
